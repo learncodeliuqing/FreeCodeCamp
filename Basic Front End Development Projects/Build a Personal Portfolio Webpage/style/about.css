@@ -1,0 +1,45 @@
+div#about {
+    position: relative;
+    background-color: lightgray;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: url("../images/about.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+@media (min-width:601px) {
+    div#about {
+        min-height: 100vh;
+    }
+}
+
+#about h1 {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.info-intro {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+div.info-intro a {
+    color: white;
+}
+
+div.info-intro a:hover {
+    background-color: grey;
+    color: black;
+}
+
+div.image-intro {
+    padding-top: 10%;
+    text-align: center;
+}
+
+div.image-intro img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50% 50%;
+}

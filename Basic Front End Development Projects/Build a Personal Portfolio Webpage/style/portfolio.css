@@ -1,0 +1,75 @@
+div#portfolio {
+    background-color: lightgray;
+    background: url("../images/portfolio.jpg") no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+#portfolio hgroup {
+    padding: 50px;
+}
+
+
+/*项目集css设置*/
+
+div#portfolio div.item {
+    border: 1px solid white;
+    margin-right: 1px;
+    padding: 16px;
+}
+
+div.item a {
+    height: 200px;
+    position: relative;
+    display: block;
+}
+
+
+/*positon定位,加top和left属性,必须*/
+
+div.portfolio-hover {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    text-align: center;
+}
+
+div.portfolio-hover div.portfolio-hover-content {
+    vertical-align: middle;
+    color: white;
+    font-size: 24px;
+    padding-top: 48px;
+}
+
+div.item a:hover div.portfolio-hover {
+    display: block;
+}
+
+div.item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+div.image-description {
+    padding: 0 16px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    height: 150px;
+}
+
+div.image-description h3 {
+    font-style: italic;
+    font-size: 12px;
+}
+
+div#portfolio div.item:hover {
+    box-shadow: 8px 12px 4px black;
+}

@@ -1,0 +1,29 @@
+#footer {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.footer-nav,
+.copyright {
+    width: 100%;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+}
+
+.footer-nav ul li a {
+    display: block;
+    color: blue;
+    padding: 8px;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}

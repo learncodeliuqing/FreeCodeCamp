@@ -1,0 +1,11 @@
+@import url(./normal.css);
+@import url(./header.css);
+@import url(./layout.css);
+@import url(./home.css);
+@import url(./about.css);
+@import url(./portfolio.css);
+@import url(./contact.css);
+@import url(./footer.css);
+body {
+    min-width: 523px;
+}

@@ -1,0 +1,60 @@
+body {
+    min-width: 468px;
+}
+
+.content {
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid black;
+    background: lightgray;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0px;
+}
+
+section {
+    margin: 0 auto;
+    margin-bottom: 16px;
+    width: 60%
+}
+
+.card {
+    display: block;
+    background-color: whitesmoke;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card p {
+    text-align: center;
+}
+
+blockquote>p:last-child {
+    margin-top: 16px;
+    text-align: right;
+}
+
+blockquote+p {
+    margin-top: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    border-top: 1px solid darkgrey;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

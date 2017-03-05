@@ -1,0 +1,42 @@
+#home {
+    position: relative;
+    height: 100vh;
+    padding-top: 10%;
+    text-align: center;
+    background: lightgrey url("../images/home.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+hgroup {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.info-link ul {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 10%;
+}
+
+.info-link ul li {
+    list-style: none;
+    padding: 8px 16px;
+}
+
+@media (min-width:601px) {
+    .info-link li {
+        display: inline-block;
+    }
+}
+
+.info-link li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    background: #ccc;
+}
+
+.info-link li a:hover {
+    background: #000;
+    color: #fff;
+}

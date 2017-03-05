@@ -1,0 +1,65 @@
+.w3-navbar {
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    background: lightgrey;
+    width: 100%;
+}
+
+.w3-navbar li {
+    display: block;
+}
+
+.w3-hide {
+    display: none !important;
+}
+
+.w3-show {
+    display: block !important;
+}
+
+@media screen and (min-width:601px) {
+    .w3-navbar-medium li {
+        float: left;
+    }
+    .w3-hide-medium {
+        display: none !important;
+    }
+    .w3-show-medium {
+        display: block!important;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .w3-navbar-large li {
+        float: left;
+    }
+    .w3-hide-large {
+        display: none!important;
+    }
+    .w3-show-large {
+        display: block!important;
+    }
+}
+
+.w3-navbar li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.w3-navbar li a:hover {
+    color: black;
+    background: #ccc;
+}
+
+.w3-right {
+    float: right;
+}
+
+.w3-top {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}

@@ -1,0 +1,40 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: lightskyblue;
+}
+
+.container {
+    width: 500px;
+    margin: 100px auto;
+    padding: 45px;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 60%;
+    }
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
